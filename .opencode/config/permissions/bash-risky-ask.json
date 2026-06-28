@@ -1,0 +1,158 @@
+[
+	{
+		"pattern": "npm install*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "pnpm install*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "yarn install*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "bun install*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "pip install*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "brew install*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "apt install*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "sudo apt*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "curl *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "wget *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "ssh *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "scp *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "rsync *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "docker *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "docker compose *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "kubectl *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "helm *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "terraform *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "mkdir *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "touch *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "rmdir *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "mv *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "cp *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "chmod *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "chown *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git push*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git add*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git commit*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git checkout*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git switch*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git restore*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git merge*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git rebase*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git pull*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git fetch*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git tag*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git stash*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git worktree*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git submodule*",
+		"permission": "ask"
+	}
+]

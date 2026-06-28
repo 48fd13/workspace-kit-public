@@ -1,0 +1,60 @@
+{
+	"$schema": "https://opencode.ai/config.json",
+	"disabled_providers": [
+		"openrouter",
+		"xai"
+	],
+	"share": "disabled",
+	"model": "ollama/gemma4:e2b",
+	"small_model": "ollama/gemma4:e2b",
+	"provider": {
+		"ollama": {
+			"npm": "@ai-sdk/openai-compatible",
+			"name": "Ollama (local)",
+			"options": {
+				"baseURL": "http://127.0.0.1:11434/v1"
+			},
+			"models": {
+				"gemma4:e2b": {
+					"name": "Gemma 4 E2B (local)"
+				}
+			}
+		}
+	},
+	"compaction": {
+		"auto": true,
+		"prune": true,
+		"reserved": 15000
+	},
+	"permission": {
+		"edit": "ask"
+	},
+	"default_agent": "general",
+	"agent": {
+		"general": {
+			"description": "Default primary \u2014 reads folder workflows/runbooks, performs safe local work, validates, and saves handoffs.",
+			"mode": "primary",
+			"prompt": "{file:agents/general.md}",
+			"permission": {
+				"edit": "allow",
+				"question": "allow",
+				"task": "deny"
+			},
+			"tools": {
+				"bash": true,
+				"write": true,
+				"edit": true,
+				"read": true,
+				"grep": true,
+				"glob": true,
+				"webfetch": true
+			}
+		},
+		"plan": {
+			"disable": true
+		},
+		"build": {
+			"disable": true
+		}
+	}
+}

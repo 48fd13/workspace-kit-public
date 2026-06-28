@@ -1,0 +1,110 @@
+[
+	{
+		"pattern": "rm -rf *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "rm -r *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "rm -f *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "sudo rm*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "find * -delete*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "find * -exec rm*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "chmod -R *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "chown -R *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "dd *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "mkfs*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "diskutil erase*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "npm publish*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "pnpm publish*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "yarn publish*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "docker push*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "docker system prune*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "docker volume rm*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "terraform destroy*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "kubectl delete*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "helm uninstall*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "DROP *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "drop *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "git push --force*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "git reset --hard*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "git clean*",
+		"permission": "deny"
+	},
+	{
+		"pattern": "git branch -D *",
+		"permission": "deny"
+	},
+	{
+		"pattern": "git branch -D*",
+		"permission": "deny"
+	}
+]

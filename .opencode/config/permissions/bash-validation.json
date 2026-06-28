@@ -1,0 +1,258 @@
+[
+	{
+		"pattern": "npm test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "npm run test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "npm run lint*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "npm run typecheck*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "npm run check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "npm run build*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "npm run format:check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm run test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm lint*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm run lint*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm typecheck*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm run typecheck*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm run check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm build*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm run build*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pnpm run format:check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "yarn test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "yarn lint*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "yarn typecheck*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "yarn check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "yarn build*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "yarn format:check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "bun test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "bun run test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "bun run lint*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "bun run typecheck*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "bun run check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "bun run build*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pytest*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python -m pytest*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python3 -m pytest*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python -m unittest*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python3 -m unittest*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "ruff check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python -m ruff check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python3 -m ruff check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "mypy*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pyright*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python -m compileall*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python3 -m compileall*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "go test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "go vet*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "go list*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "cargo test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "cargo check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "cargo clippy*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "cargo build*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "cargo fmt --check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "make test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "make lint*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "make check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "make verify*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "make build*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "mvn test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "mvn verify*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "./mvnw test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "./mvnw verify*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "gradle test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "gradle check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "./gradlew test*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "./gradlew check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python3 verify-opencode-setup.py",
+		"permission": "allow"
+	}
+]
