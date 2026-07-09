@@ -1,0 +1,98 @@
+[
+	{
+		"pattern": "*>*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*>>*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*|*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*`*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*$(*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "* xargs *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "tee *",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*--output*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*--pre*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*--ext-diff*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*<(*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*&&*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "*;*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git status* && git diff*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git status* && git diff --stat*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git status* && git log*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pwd && ls*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "pwd; ls*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git status*; git diff*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --ext-diff*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git grep -O*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git grep --open-files-in-pager*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git grep* -O*",
+		"permission": "ask"
+	},
+	{
+		"pattern": "git grep* --open-files-in-pager*",
+		"permission": "ask"
+	}
+]

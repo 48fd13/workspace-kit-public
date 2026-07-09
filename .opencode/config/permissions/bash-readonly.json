@@ -1,0 +1,234 @@
+[
+	{
+		"pattern": "pwd",
+		"permission": "allow"
+	},
+	{
+		"pattern": "ls",
+		"permission": "allow"
+	},
+	{
+		"pattern": "ls *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "rg *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "grep *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "cat ./*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "head *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "tail *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "wc *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "file *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "stat *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "du -sh *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "tree *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git status",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git status *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git status*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git status --*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff -- *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --stat*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --check*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --cached*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --staged*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --name-only*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --name-status*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git diff --compact-summary*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git log",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git log *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git log*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git log --*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git show",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git show *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git show*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git show --*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git branch",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git branch --show-current",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git branch -a",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git branch -r",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git branch -v",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git branch -vv",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git ls-files*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git grep*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git rev-parse *",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git rev-parse*",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git remote",
+		"permission": "allow"
+	},
+	{
+		"pattern": "git remote -v",
+		"permission": "allow"
+	},
+	{
+		"pattern": "node --version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "npm --version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python --version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "python3 --version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "go version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "rustc --version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "cargo --version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "docker --version",
+		"permission": "allow"
+	},
+	{
+		"pattern": "kubectl version --client*",
+		"permission": "allow"
+	}
+]

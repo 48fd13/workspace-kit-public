@@ -1,0 +1,8 @@
+{
+	"global": "readonly",
+	"agent": {
+		"manual": "validation",
+		"auto": "validation",
+		"plan": "readonly"
+	}
+}
